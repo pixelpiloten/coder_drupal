@@ -1,0 +1,3 @@
+alias php="docker exec -u 1000:1000 -t drupal_apache php"
+alias composer="docker exec -u 1000:1000 -t drupal_apache composer"
+alias drush="docker exec -u 1000:1000 -it drupal_apache drush --root /home/coder/project/code-server/web --uri 127.0.0.1:8080"
